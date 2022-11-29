@@ -1,0 +1,4 @@
+<h1><%= @friend.first_name %></h1>
+<%= link_to "Delete",
+  friend_path(@friend),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
