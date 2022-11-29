@@ -1,0 +1,8 @@
+<h1>add a new booking:</h1>
+
+<%= simple_form_for [@friend, @booking] do |f| %>
+  <%= f.input :description %>
+  <%= f.input :start_date %>
+  <%= f.input :end_date %>
+  <%= f.submit %>
+<% end %>
