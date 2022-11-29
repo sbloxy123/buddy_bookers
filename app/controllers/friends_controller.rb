@@ -38,9 +38,11 @@ class FriendsController < ApplicationController
   end
 
   def destroy
-    @friend = Friend.find(params[:id])
-    @friend.destroy
-    redirect_to friends_path, status: :see_other
+    if @friend.destroy
+      redirect_to friends_path, status: :see_other
+    else
+      render :bookings, status: :unprocessable_entity
+    end
   end
 
   private
