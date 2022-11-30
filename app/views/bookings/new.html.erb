@@ -1,3 +1,4 @@
+<div class="container">
 <h1>add a new booking:</h1>
 
 <%= simple_form_for [@friend, @booking] do |f| %>
@@ -7,4 +8,5 @@
   <%= f.submit %>
 <% end %>
 
-<a><%= link_to "I don't like this person!", friend_path(@friend), :class => 'btn btn-warning' %></a>
+<a><%= link_to "I don't like this person!", friend_path(@friend), :class => 'btn btn-warning mt-2' %></a>
+</div>

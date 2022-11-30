@@ -1,6 +1,9 @@
 <div class="container"><h1><%= "#{@friend.first_name} #{@friend.last_name}" %></h1>
+<h3>Location</h3>
 <p><%= "#{@friend.location}" %></p>
+<h3>Description</h3>
 <p><%= "#{@friend.description}" %></p>
+<h3>Price</h3>
 <p><%= "#{@friend.price}" %></p>
 <a><%= link_to "Book Me!", new_friend_booking_path(params[:id]), :class => 'btn btn-success' %></a>
 <a><%= link_to "Back to Friends List", friends_path, :class => 'btn btn-warning' %></a>
