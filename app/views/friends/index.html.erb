@@ -1,7 +1,12 @@
 <h1>Friends:</h1>
 
 <% @friends.each do |friend| %>
-<p><%= link_to friend.first_name, friend_path(friend) %> <%= link_to "Delete",
+
+<p><%= link_to "#{friend.first_name} #{friend.last_name}", friend_path(friend) %> <a><%= link_to "View Details", friend_path(friend), :class => 'btn btn-success' %></a>
+<%= link_to "Delete",
   friend_path(friend),
-  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %></p>
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
+</p>
+
+
 <% end %>
