@@ -8,7 +8,16 @@
 puts "Cleaning database..."
 Friend.destroy_all
 
-Friend.create(id: 1, first_name: "david", last_name: "janes", user_id: 1)
-Friend.create(id: 2, first_name: "Shawshank", last_name: "Framed", user_id: 2)
-
-puts "seeded"
+puts 'Creating 30 fake friends...'
+30.times do
+  friend = Friend.new(
+    first_name: Faker::Name.first_name,
+    last_name: Faker::Name.last_name,
+    description: Faker::Hipster.paragraph(sentence_count: 2),
+    location: Faker::Address.city,
+    price: rand(10..100),
+    user_id: 1
+  )
+  friend.save!
+end
+puts 'Finished!'
