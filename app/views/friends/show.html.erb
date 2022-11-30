@@ -1,4 +1,10 @@
-<h1><%= @friend.first_name %></h1>
+<div class="container"><h1><%= "#{@friend.first_name} #{@friend.last_name}" %></h1>
+<p><%= "#{@friend.location}" %></p>
+<p><%= "#{@friend.description}" %></p>
+<p><%= "#{@friend.price}" %></p>
+<a><%= link_to "Book Me!", new_friend_booking_path(params[:id]), :class => 'btn btn-success' %></a>
+<a><%= link_to "Back to Friends List", friends_path, :class => 'btn btn-warning' %></a>
 <%= link_to "Delete",
   friend_path(@friend),
   data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
+</div>
