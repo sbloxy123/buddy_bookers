@@ -2,13 +2,16 @@
 <h1>Friends:</h1>
 
 <% @friends.each do |friend| %>
+<div class="friend-box" style="border: 1px solid black; m-1">
+<p><%= link_to "#{friend.first_name} #{friend.last_name}", friend_path(friend) %></p>
+<p>Location: <%= friend.location %> </p>
+<p>Description: <%= friend.description %> </p>
 
-<p><%= link_to "#{friend.first_name} #{friend.last_name}", friend_path(friend) %> <a><%= link_to "View Details", friend_path(friend), :class => 'btn btn-success' %></a>
+ <a><%= link_to "View Details", friend_path(friend), :class => 'btn btn-success' %></a>
 <%= link_to "Delete",
   friend_path(friend),
   data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
-</p>
 
-
+</div>
 <% end %>
 </div>

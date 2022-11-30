@@ -2,10 +2,17 @@
 <h1>Bookings:</h1>
 
 <% @bookings.each do |booking| %>
-<p><%= link_to booking.description, booking_path(booking) %> <a><%= link_to "Edit", edit_booking_path(booking), :class => 'btn btn-success' %></a>
+<div class="friend-box" style="border: 1px solid black; m-1">
+
+<p> <%= link_to booking.friend.first_name, friend_path(booking.friend_id)  %> - <%= link_to booking.description, booking_path(booking) %> </p>
+
+<p>start date: <%= booking.start_date %></p>
+<p> end date: <%= booking.end_date %></p>
+<a><%= link_to "Edit", edit_booking_path(booking), :class => 'btn btn-success' %></a>
 <%= link_to "Delete",
   booking_path(booking),
   data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
-</p>
+
+</div>
 <% end %>
 </div>
