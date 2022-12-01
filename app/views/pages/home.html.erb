@@ -4,5 +4,14 @@
     <p>Rent a buddy for the day, whether it’s for a night out, play a sport with or simply just hang out</p>
     <a><%= link_to "Friend Me", friends_path, :class => 'btn btn-flat' %></a>
     <a><%= link_to "Sell a friend", new_friend_path, :class => 'btn btn-flat' %></a>
+    
+    <%= form_with url: friends_path, method: :get, class: "d-flex" do %>
+      <%= text_field_tag :query,
+      params[:query],
+      class: "form-control",
+      placeholder: "Enter you location"
+      %>
+      <%= submit_tag "Search", class: "btn btn-primary" %>
+    <% end %>
   </div>
 </div>
