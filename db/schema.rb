@@ -36,6 +36,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_01_112041) do
     t.bigint "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.float "latitude"
+    t.float "longitude"
+    t.string "adress"
+    t.string "address"
     t.string "interest"
     t.index ["user_id"], name: "index_friends_on_user_id"
   end

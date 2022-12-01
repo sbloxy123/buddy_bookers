@@ -3,10 +3,15 @@ class FriendsController < ApplicationController
 
   def index
     @friends = Friend.all
+
   end
 
   def show
     @friend = Friend.find(params[:id])
+    @markers = [
+      lat: @friend.latitude,
+      lng: @friend.longitude
+  ]
   end
 
   def new
