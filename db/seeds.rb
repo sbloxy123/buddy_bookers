@@ -15,6 +15,7 @@ puts 'Creating 30 fake friends...'
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 2),
     location: Faker::Address.city,
+    interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
   )
