@@ -1,16 +1,17 @@
 <div class="container">
-<h1>Booking Confirmation</h1>
-<h2>Here are the details:</h2>
-<h3>Description:</h3>
-<p><%= @booking.description %></p>
-<h3>Start Date</h3>
-<p><%= @booking.start_date %></p>
-<h3>End Date</h3>
-<p><%= @booking.end_date %></p>
-<a><%= link_to "View Friend Profile", friend_path(@booking.friend_id), :class => 'btn btn-success' %></a>
-<a><%= link_to "Edit", edit_booking_path, :class => 'btn btn-success' %></a>
-<%= link_to "Delete",
-  booking_path(@booking),
-  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
-<p><a><%= link_to "View All My Bookings", bookings_path, :class => 'btn btn-warning mt-2' %></a></p>
+  <div class="confirmation-container">
+    <h1>Booking Confirmation</h1>
+    <h3>Booking details:</h3>
+    <p class="booking-description"><%= @booking.description %></p>
+    <h4>Start Date</h4>
+    <p><%= @booking.start_date %></p>
+    <h4>End Date</h4>
+    <p><%= @booking.end_date %></p>
+    <a><%= link_to "View Friend Profile", friend_path(@booking.friend_id), :class => 'btn btn-success' %></a>
+    <a><%= link_to "Edit", edit_booking_path, :class => 'btn btn-success' %></a>
+    <%= link_to "Cancel Booking",
+      booking_path(@booking),
+      data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
+    <p><a><%= link_to "View All My Bookings", bookings_path, :class => 'btn btn-warning mt-2' %></a></p>
+  </div>
 </div>
