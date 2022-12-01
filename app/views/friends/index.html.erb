@@ -1,18 +1,35 @@
 <div class="container">
+<div class="friends_index">
 <h1>Friends:</h1>
 
-<% @friends.each do |friend| %>
-<div class="friend-box" style="border: 1px solid black; m-1">
-<p><%= link_to "#{friend.first_name} #{friend.last_name}", friend_path(friend) %></p>
-<p>Location: <%= friend.location %> </p>
-<p>Description: <%= friend.description %> </p>
+  <div class="friends-list">
+    <% @friends.each do |friend| %>
+    <div class="friend-card">
+      <img class="image-container" src="https://picsum.photos/200" alt="profile pic">
 
- <a><%= link_to "View Details", friend_path(friend), :class => 'btn btn-success' %></a>
-<%= link_to "Delete",
-  friend_path(friend),
-  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
-
+      <div class="friend-card-details">
+        <div class="card-title">
+          <h5><%= link_to "#{friend.first_name} #{friend.last_name}", friend_path(friend) %> </h5>
+          <p><i class="fa-solid fa-location-dot"></i> <%= friend.location %></p>
+        </div>
+        <div class="card-details">
+          <h3>Interests:</h3>
+            <ul class= "flex-list">
+              <% interests = friend.interest.split(", ").to_a %>
+              <% interests.each do |interest|%>
+              <li><%= interest %></li>
+              <% end %>
+            </ul>
+            <div class="card-footer">
+              <%= link_to "View Details",
+                friend_path(friend),
+                :class => 'btn btn-success' %>
+              <h4><%= friend.price %> €</h4>
+            </div>
+        </div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+  </div>
 </div>
-<% end %>
-</div>
-
