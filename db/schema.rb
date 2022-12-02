@@ -69,6 +69,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_103414) do
     t.string "adress"
     t.string "address"
     t.string "interest"
+    t.string "photo"
     t.index ["user_id"], name: "index_friends_on_user_id"
   end
 
