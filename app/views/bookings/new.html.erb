@@ -1,12 +1,15 @@
 <div class="container">
-<h1>add a new booking:</h1>
+  <div class="form-container">
+    <h1>add a new booking:</h1>
+    <%= simple_form_for [@friend, @booking] do |f| %>
+      <%= f.input :description %>
+      <%= f.input :start_date, as: :string, input_html: { data: { controller: "flatpickr" } } %>
+      <%= f.input :end_date, as: :string, input_html: { data: { controller: "flatpickr" } } %>
+      <%= f.submit class: "submit-btn" %>
+    <% end %>
 
-<%= simple_form_for [@friend, @booking] do |f| %>
-  <%= f.input :description %>
-  <%= f.input :start_date %>
-  <%= f.input :end_date %>
-  <%= f.submit %>
-<% end %>
+    <%= link_to "Return", friend_path(@friend), :class => 'back-btn' %>
+  </div>
 
-<a><%= link_to "I don't like this person!", friend_path(@friend), :class => 'btn btn-warning mt-2' %></a>
 </div>
+

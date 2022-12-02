@@ -22,8 +22,9 @@
   <div class="friends-list">
     <% @friends.each do |friend| %>
     <div class="friend-card">
-      <img class="image-container" src="https://picsum.photos/200" alt="profile pic">
-
+   <!--   <img class="image-container" src="https://picsum.photos/200" alt="profile pic"> -->
+      <%= cl_image_tag friend.photo.key,
+      width: 320, height: 200, crop: :thumb, gravity: :face %>
       <div class="friend-card-details">
         <div class="card-title">
           <h5><%= link_to "#{friend.first_name} #{friend.last_name}", friend_path(friend) %> </h5>

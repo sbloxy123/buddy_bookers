@@ -10,4 +10,6 @@ class Friend < ApplicationRecord
   validates :first_name, :last_name, length: { minimum: 2 }
   validates :description, length: { minimum: 50 }
   validates :price, numericality: { greater_than: 0 }
+
+  has_one_attached :photo
 end
