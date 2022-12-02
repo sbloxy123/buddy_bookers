@@ -7,9 +7,9 @@ body{
   height: 458px;
   width: 465px;
   object-fit: cover;
-  border-radius: 51px 0 0 0;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 8px;
 }
 
 #img-map{
@@ -25,22 +25,22 @@ body{
 
 #book-container{
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-top: 50px;
-  width: 400px;
   float: left;
 }
 
 #book-container p, a{
-  margin: 0 30px 0 0;
+  margin: 0 60px 0 0;
 }
 
 .interest-ul{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 80px;
+  height: 100px;
+  margin-top: 20px;
+  max-width: 420px;
 }
 
 .class{
@@ -56,8 +56,14 @@ body{
   color: black;
 }
 
+.book-button:hover{
+  box-shadow: 5px 10px 8px #888888;
+  color: black;
+  background: linear-gradient(#89670ac4,#d19d0dc4);
+}
+
 .back-friends-button{
-  background: linear-gradient(#0ca6bbad,#0FDEFAAD);
+  background: linear-gradient(#0eaabfad,#0FDEFAAD);
   box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 15px 0px;
   text-decoration: none;
@@ -70,5 +76,23 @@ body{
 }
 
 #back-to-friends{
-  margin-top: 50px;
+  margin-top: 45px;
+}
+
+.back-friends-button:hover{
+  box-shadow: 5px 10px 8px #888888;
+  color: black;
+  background: linear-gradient(#0b90a1ad,#0cbad1ad);
+}
+
+p{
+  font-size: 20px;
+}
+
+h2{
+  margin-top: 5px;
+}
+
+.interest-list{
+  font-size: 18px;
 }
