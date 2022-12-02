@@ -15,7 +15,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -29,7 +29,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -43,7 +43,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -57,7 +57,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -71,7 +71,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -85,7 +85,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -99,7 +99,7 @@ puts 'Creating 50 fake friends...'
       first_name: Faker::Name.first_name,
       last_name: Faker::Name.last_name,
       description: Faker::Hipster.paragraph(sentence_count: 3),
-      location: Faker::Address.city,
+      location: Faker::Address.state,
       interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
       price: rand(10..100),
       user_id: 1
@@ -113,7 +113,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -127,7 +127,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -142,7 +142,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -156,7 +156,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -170,7 +170,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -184,7 +184,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -198,7 +198,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -212,7 +212,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -226,7 +226,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -240,7 +240,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -255,7 +255,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -270,7 +270,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -284,7 +284,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -300,7 +300,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -314,7 +314,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -328,7 +328,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -342,7 +342,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -356,7 +356,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -370,7 +370,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -384,7 +384,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -398,7 +398,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -412,7 +412,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -427,7 +427,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -441,7 +441,7 @@ puts 'Creating 50 fake friends...'
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     description: Faker::Hipster.paragraph(sentence_count: 3),
-    location: Faker::Address.city,
+    location: Faker::Address.state,
     interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
     price: rand(10..100),
     user_id: 1
@@ -456,7 +456,7 @@ puts 'Creating 50 fake friends...'
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -470,7 +470,7 @@ friend.save!
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -484,7 +484,7 @@ friend.save!
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -498,7 +498,7 @@ friend.save!
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -512,7 +512,7 @@ friend.save!
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -526,7 +526,7 @@ friend.save!
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -540,7 +540,7 @@ friend.save!
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -554,7 +554,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -569,7 +569,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -584,7 +584,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -598,7 +598,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -613,7 +613,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -628,7 +628,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -642,7 +642,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -656,7 +656,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -671,7 +671,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -686,7 +686,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
@@ -700,7 +700,7 @@ friend = Friend.new(
   first_name: Faker::Name.first_name,
   last_name: Faker::Name.last_name,
   description: Faker::Hipster.paragraph(sentence_count: 3),
-  location: Faker::Address.city,
+  location: Faker::Address.state,
   interest: "#{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}, #{Faker::Hobby.activity}",
   price: rand(10..100),
   user_id: 1
