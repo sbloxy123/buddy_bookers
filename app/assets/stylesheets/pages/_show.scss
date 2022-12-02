@@ -1,0 +1,74 @@
+@import "home";
+body{
+  background-color: #05B0E314;
+}
+
+#show-profile{
+  height: 458px;
+  width: 465px;
+  object-fit: cover;
+  border-radius: 51px 0 0 0;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+#img-map{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#main-container{
+  display: flex;
+}
+
+#book-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  width: 400px;
+  float: left;
+}
+
+#book-container p, a{
+  margin: 0 30px 0 0;
+}
+
+.interest-ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80px;
+}
+
+.class{
+  font-size: 50px;
+}
+
+.book-button{
+  background: linear-gradient(#bc8d0ec4,#FABD0FC4);
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 15px 0px;
+  text-decoration: none;
+  padding: 6px 20px;
+  color: black;
+}
+
+.back-friends-button{
+  background: linear-gradient(#0ca6bbad,#0FDEFAAD);
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 15px 0px;
+  text-decoration: none;
+  padding: 6px 20px;
+  color: black;
+}
+
+#description{
+  max-width: 465px;
+}
+
+#back-to-friends{
+  margin-top: 50px;
+}
