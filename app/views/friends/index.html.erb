@@ -1,19 +1,21 @@
 <div class="container">
 <div class="friends_index">
-<h1>Friends:</h1>
+<h1 class="header-one">Friends</h1>
 
+
+<div class="friend-box">
   <div class="friends-list">
     <% @friends.each do |friend| %>
     <div class="friend-card">
-      <img class="image-container" src="https://picsum.photos/200" alt="profile pic">
-
+      <%= cl_image_tag friend.photo.key,
+      width: 320, height: 200, crop: :thumb, gravity: :face %>
       <div class="friend-card-details">
         <div class="card-title">
-          <h5><%= link_to "#{friend.first_name} #{friend.last_name}", friend_path(friend) %> </h5>
+          <h5><%= link_to "#{friend.first_name} #{friend.last_name}", friend_path(friend), class: 'name-design' %> </h5>
           <p><i class="fa-solid fa-location-dot"></i> <%= friend.location %></p>
         </div>
         <div class="card-details">
-          <h3>Interests:</h3>
+          <h3 class="interest">Interests</h3>
             <ul class= "flex-list">
               <% interests = friend.interest.split(", ").to_a %>
               <% interests.each do |interest|%>
