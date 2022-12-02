@@ -1,17 +1,19 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/1187520/pexels-photo-1187520.jpeg)">
-  <div class="text-center">
-    <h1>Buddy Bookers</h1>
-    <p>Rent a buddy for the day, whether it’s for a night out, play a sport with or simply just hang out</p>
-    <a><%= link_to "Friend Me", friends_path, :class => 'btn btn-flat' %></a>
-    <a><%= link_to "Sell a friend", new_friend_path, :class => 'btn btn-flat' %></a>
+  <div class= "position-absolute top-0 end-0 main-top-buttons">
+  <%= link_to "Friends", friends_path, :class => 'btn-sign-up'%>
+  
+  </div>
 
-    <%= form_with url: friends_path, method: :get, class: "d-flex" do %>
-      <%= text_field_tag :query,
-      params[:query],
-      class: "form-control",
-      placeholder: "Enter you location"
-      %>
-      <%= submit_tag "Search", class: "btn btn-primary" %>
-    <% end %>
+  <div class="text-center">
+    <%= image_tag ("buddy-bookers.png"), :class => 'buddy-bookers-main'%>
+      <div class = "forms">
+        <%= form_with url: friends_path, method: :get, class: "d-flex" do %>
+        <%= text_field_tag :query,
+        params[:query],
+        class: "form-control",
+        placeholder: "Enter you location"%>
+        <%= submit_tag "Search", class: "btn btn-primary" %>
+         <% end %>
+      </div>
   </div>
 </div>
