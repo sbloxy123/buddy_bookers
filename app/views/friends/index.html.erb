@@ -2,27 +2,10 @@
 <div class="friends_index">
 <h1>Friends:</h1>
 
-<%  %>
-<% @friends.each do |friend| %>
 <div class="friend-box" style="border: 1px solid black; m-1">
-<% if friend.photo.attached? %>
-  <%= cl_image_tag friend.photo.key,
-        width: 150, height: 150, crop: :thumb, gravity: :face %>
-<% else %>
-<img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="">
-<% end %>
-<p><%= link_to "#{friend.first_name} #{friend.last_name}", friend_path(friend) %></p>
-<p>Location: <%= friend.location %> </p>
-<p>Description: <%= friend.description %> </p>
-
- <a><%= link_to "View Details", friend_path(friend), :class => 'btn btn-success' %></a>
-<%= link_to "Delete",
-  friend_path(friend),
-  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
   <div class="friends-list">
     <% @friends.each do |friend| %>
     <div class="friend-card">
-   <!--   <img class="image-container" src="https://picsum.photos/200" alt="profile pic"> -->
       <%= cl_image_tag friend.photo.key,
       width: 320, height: 200, crop: :thumb, gravity: :face %>
       <div class="friend-card-details">
